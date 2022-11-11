@@ -7,7 +7,8 @@ public class SecretNumber {
 
     public static void main(String[] args){
 
-        Random rand = new Random();
+        byte secretNumber = 12;
+
 
         int randomNumber = rand.nextInt(50) + 1;
 
